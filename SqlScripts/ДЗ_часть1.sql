@@ -23,8 +23,8 @@ Quantity int
 CREATE TABLE Booking (
 Id int identity(1,1) constraint PK_Booking primary key,
 Date nvarchar(100),
-Turfirma_id int constraint FK_Booking_TurFirma references TurFirma(Id),
-Voucher_id int constraint FK_Booking_Voucher references Voucher(Id),
+Turfirma_id int constraint FK_Booking_TurFirma references TurFirma(Id) ON DELETE CASCADE,
+Voucher_id int constraint FK_Booking_Voucher references Voucher(Id) ON DELETE CASCADE
 Quantity int, 
 Price int
 )
