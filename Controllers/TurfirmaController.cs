@@ -2,11 +2,11 @@
 using WebAPI.Dto;
 using WebAPI.Services;
 
-namespace To_Do_List_Backend.Controllers
+namespace WebAPI.Controllers
 {
     [ApiController]
     [Route( "rest/{controller}")]
-    public class TodoController : ControllerBase
+    public class TurfirmaController : ControllerBase
     {
         private readonly ITurfirmaService _turfirmaService;
 
