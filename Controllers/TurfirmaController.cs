@@ -60,7 +60,7 @@ namespace WebAPI.Controllers
 
         [HttpDelete]
         [Route( "{turfirmaId}/delete" )]
-        public IActionResult DeleteTodo( int turfirmaId )
+        public IActionResult DeleteTurfirma( int turfirmaId )
         {
             try
             {
