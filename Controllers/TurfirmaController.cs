@@ -10,7 +10,7 @@ namespace WebAPI.Controllers
     {
         private readonly ITurfirmaService _turfirmaService;
 
-        public TodoController(ITurfirmaService turfirmaService)
+        public TurfirmaController(ITurfirmaService turfirmaService)
         {
             _turfirmaService = turfirmaService;
         }
